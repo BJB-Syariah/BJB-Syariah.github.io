@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJB Syariah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-maroon {
+            background-color: #800000; /* Merah Maroon */
+        }
+        .text-gradient {
+            background: linear-gradient(90deg, #1E90FF, #FFD700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-maroon text-white">
+    <nav class="bg-red-800 shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="flex items-center">
+                        <span class="text-2xl font-bold gradient-text">BJB Syariah</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-white hover:text-blue-600 transition">Home</a>
+                    <a href="#" class="text-white hover:text-blue-600 transition">Features</a>
+                    <a href="#" class="text-white hover:text-blue-600 transition">About</a>
+                    <a href="#" class="text-white hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#" class="block py-2 text-gray-700 hover:text-blue-600 transition">Home</a>
+                <a href="#" class="block py-2 text-gray-700 hover:text-blue-600 transition">Features</a>
+                <a href="#" class="block py-2 text-gray-700 hover:text-blue-600 transition">About</a>
+                <a href="#" class="block py-2 text-gray-700 hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body -->
+    <main class="py-20 px-4">
+        <div class="max-w-7xl mx-auto text-left">
+            <h2 class="text-4xl font-bold mb-4">Mitra Amanah<br> Usaha Maslahah</h2>
+            <p class="mb-8">
+                Berupaya menjadi lembaga keuangan syariah yang memberikan layanan terbaik<br> dan berkontribusi pada perekonomian daerah, serta meningkatkan inklusi keuangan melalui digitalisasi.
+                <br><br><br>
+                <style>
+                    button{
+                        color: red;
+                        background: #800000;
+                        color: whitesmoke;
+                        padding: 8px 20px;
+                        border: 2px solid;
+                    }
+                    </style>
+                <a href="https://forms.gle/YtqmdAVg1MN6FoU39"><button type="submit">Mulai</button></a>
+            </p>
+        </div>
+        <br><br><br><br>
+        <div class="max-w-2xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-2">IKHLAS</h3>
+            <p class="text-sm mb-10">Mengutamakan transaksi sesuai dengan syariat islam</p>
+        </div>
+
+            <!-- Fitur Perusahaan -->
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                 <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer group">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200 transition">
+                        <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Integritas</h3>
+                    <p class="text-gray-600">
+                       Integritas adalah sifat atau keadaan yang menunjukkan kesatuan yang utuh sehingga 
+                       memiliki potensi dan kemampuan yang memancarkan kewibawaan dan kejujuran
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer group">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-purple-200 transition">
+                        <i class="fas fa-mobile-alt text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Kompeten</h3>
+                    <p class="text-gray-600">
+                        kemampuan seseorang untuk melakukan tugas atau pekerjaan dengan baik dan 
+                        efektif, sesuai dengan standar yang ditetapkan oleh perusahaan.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer group">
+                    <div class="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-green-200 transition">
+                        <i class="fas fa-cog text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Harmoni</h3>
+                    <p class="text-gray-600">
+                        kondisi di mana seluruh elemen dalam organisasi, termasuk karyawan, manajemen, 
+                        dan berbagai departemen, bekerja secara selaras dan seimbang untuk mencapai tujuan bersama.
+                    </p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer group">
+                    <div class="w-14 h-14 bg-yellow-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-yellow-200 transition">
+                        <i class="fas fa-shield-alt text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Layanan</h3>
+                    <p class="text-gray-600">
+                        serangkaian dukungan, bantuan, dan solusi yang disediakan untuk membantu 
+                        perusahaan beroperasi secara efektif dan mencapai tujuan bisnisnya.
+                    </p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition cursor-pointer group">
+                    <div class="w-14 h-14 bg-red-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-red-200 transition">
+                        <i class="fas fa-chart-line text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Solusi</h3>
+                    <p class="text-gray-600">
+                        Memberikan pemecahan masalah terbaik kepada nasabah berkaitan dengan masalah keuangan
+                    </p>
+                </div>
+            </div>
+        </div>
+         <!-- Ulasan -->
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold mb-4">Ulasan</h3>
+                <p class="text-lg">"BJB Syariah memberikan layanan yang sangat memuaskan dan sesuai dengan prinsip syariah!"</p>
+                <p class="text-lg">"Saya merasa aman bertransaksi di BJB Syariah, semua sesuai dengan syariat Islam."</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-maroon text-white py-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>&copy; 2023 BJB Syariah. Semua hak dilindungi.</p>
+            <p>Alamat: Jl. Contoh No. 123, Kota Contoh, Indonesia</p>
+            <p>Email: info@bjbsyariah.com | Telepon: (021) 123-4567</p>
+            <p>Ikuti kami di: 
+                <a href="#" class="text-blue-400">Facebook</a>, 
+                <a href="#" class="text-blue-400">Twitter</a>, 
+                <a href="#" class="text-blue-400">Instagram</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
